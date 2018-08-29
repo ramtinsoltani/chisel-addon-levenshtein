@@ -1,0 +1,34 @@
+{
+  "name": "chisel-addon-levenshtein",
+  "version": "1.0.0",
+  "description": "Chisel mutator addon for calculating the levenshtein distance of two strings.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha test/test.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramtinsoltani/chisel-addon-levenshtein.git"
+  },
+  "keywords": [
+    "chisel",
+    "addon",
+    "mutator",
+    "levenshtein",
+    "distance"
+  ],
+  "author": "Ramtin Soltani <ramtin@chiselpowered.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramtinsoltani/chisel-addon-levenshtein/issues"
+  },
+  "homepage": "https://github.com/ramtinsoltani/chisel-addon-levenshtein#readme",
+  "dependencies": {
+    "fast-levenshtein": "^2.0.6"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
